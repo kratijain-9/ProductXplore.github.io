@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cart.css" class="css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="images/favicon2.jpg" type="image/x-icon">
+    <title>cart page</title>
+</head>
+
+<body>
+    <h1>Here is current status of your cart !</h1>
+    <div class="cartgrid">
+        <div class="cartgridelement e1">
+            <div class="heading">Add product and purchase</div>
+            <form action="">
+                <div class="form">
+                    <p>Name of product : <input type="text" name="name"></p>
+                    <p>Product ID : <input type="text" name="id"></p>
+                    <p>Quantity :
+                        <select name="qty" id="card">
+
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+
+                    </p>
+                    <p>Address: <textarea name="address" id="address" col="20" rows="5"
+                            placeholder="enter your address"></textarea>
+                    </p>
+                    <p>Email: <input type="email" name="email" id="email"></p>
+                    <p>Pincode: <input type="number" name="pincode" id="pincode"></p>
+                    <p>Contact number: <input type="number" name="cn" id="cn"></p>
+                    <input type="submit" value="Proceed to buy">
+
+
+
+                </div>
+
+            </form>
+            <img src="images/p1.jpg" class="i1">
+            <img src="images/p2.jpg" class="i2">
+            <img src="images/p3.jpg" class="i3">
+        </div>
+        <div class="cartgridelement e2">
+            <div class="heading">Wish list</div>
+            <i class="fa fa-heart fa-3x"></i>
+            <ul class="listi">
+                <li>Product 1</li>
+                <div>Product ID:-PX112</div>
+                <img src="images/p1.jpg" width="150px">
+                <li>Product 2</li>
+                <div>Product ID:-PX192</div>
+                <img src="images/p2.jpg" width="180px">
+                <li>Product 4</li>
+                <div>Product ID:-PX712</div>
+                <img src="images/p4.jpg" width="180px">
+
+            </ul>
+        </div>
+        <div class="cartgridelement e3">
+            <div class="heading">Ordered products</div>
+            <div>
+                <div style="font-size: 30px;">Product 1</div>
+                <img src="images/p1.jpg" width="150px">
+               
+
+
+            </div>
+            <div>
+                Date of purchase:1 May 2020
+            </div>
+            <div>Product ID:-PX112</div>
+            <div class="return ret1"><a href="">Buy again</a></div>
+            <div class="return ret2"><a href="">Return product</a></div>
+            <div class="return ret3"><a href="">Excchange product</a></div>
+            <div>
+                <div style="font-size: 30px;">Product 3</div>
+                <img src="images/p3.jpg" width="140px">
+               
+
+
+            </div>
+            <div>
+                Date of purchase:13 July 2020
+            </div>
+            <div>Product ID:-PX332</div>
+            <div class="return ret1"><a href="">Buy again</a></div>
+            <div class="return ret2"><a href="">Return product</a></div>
+            <div class="return ret3"><a href="">Excchange product</a></div>
+
+
+
+        </div>
+
+
+    </div>
+    
+
+
+</body>
+
+</html>

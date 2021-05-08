@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+
+
+}
+h1{
+    color: rgb(226, 112, 135);
+    font-size: 50px;
+    background-color: teal;
+  
+}
+.grid1{
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 500px;
+    grid-gap:2px;
+    
+    
+}
+.gridie{
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 60px;
+}
+.addbutton{
+    background-color: black;
+    text-align: center;
+    color: blanchedalmond;
+  
+}
+.addbutton a:hover{
+    background-color: chartreuse;
+    color: black;
+}
+.addbutton a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.p5{
+    float: left;
+}
+.newcartbutton{
+    background-color: crimson;
+    color: cyan;
+    float: right;
+    margin-right: 450px;
+    font-size: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.newcartbutton:hover{
+    background-color: black;
+    color: darkkhaki;
+}
+.sale{
+    text-align: center;
+    font-size: 30px;
+    border: 10px solid black;
+}
+.saleim{
+  
+    width: 400px;
+    height: 400px;
+}
+.newcartbutton a{
+    text-decoration: none;
+    color: oldlace;
+}
+.head{
+    
+    background-color: palegoldenrod;
+    font-size: 50px;
+}
+.pi{
+    float: left;
+    padding: 10px 10px 10px 10px;
+    
+}
+.profilepara{
+    font-size: 20px;
+}

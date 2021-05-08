@@ -1,0 +1,135 @@
+.body{
+    
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(1, 15, 1);
+    color: rgb(129, 248, 129);
+    font-size: 50px;
+}
+.cartgrid{
+    display: grid;
+    background-color: rgb(247, 251, 252);
+    grid-template-columns: 650px 300px 300px;
+    grid-template-rows: 700px;
+    grid-gap: 7px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.e1{
+
+    background-color: rgb(163, 163, 161);
+
+}
+.e2{
+    background-color: rgb(162, 170, 170);
+}
+input[type="submit"]{
+    background-color: rgb(12, 2, 4);
+    color: rgb(243, 209, 142);
+    padding: 12px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    
+    cursor: grab;
+}
+.form{
+    margin: 15px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(187, 183, 183);
+    font-weight: bold;
+}
+.i1{
+    padding: 10px 10px 10px 10px;
+    width: 205px;
+    height: 200px;
+    float: left;
+}
+.i2{
+    padding: 10px 10px 10px 10px;
+    width: 205px;
+    height: 200px;
+    float: left;
+}
+.i3{
+    padding: 10px 10px 10px 10px;
+    width: 205px;
+    height: 200px;
+    float: left;
+}
+.e3{
+    background-color: rgb(226, 131, 131);
+    text-align: center;
+}
+.listi{
+    font-size: 25px;
+}
+.fa-heart{
+    margin-left: 120px;
+    margin-top: 10px;
+    color: rgb(248, 110, 110);
+   
+}
+.return{
+    
+    padding: 10px 10px 10px 10px;
+}
+.return a{
+    text-decoration: none;
+    color: blanchedalmond;
+    margin-top: 80px;
+}
+.return:hover{
+    background-color: crimson;
+    color: gold;
+}
+.ret1{
+    background-color: grey;
+}
+.ret2{
+    background-color: rgb(99, 98, 98);
+}
+.ret3{
+    background-color: rgb(53, 52, 52);
+}
+@media (max-width: 768px){
+    .cartgrid{
+        display: grid;
+        background-color: rgb(247, 251, 252);
+        grid-template-columns: 550px;
+        grid-template-rows: 900px 900px 900px;
+        grid-gap: 7px;
+    }
+    
+    
+    .e1{
+        grid-row-start: 1;
+        grid-row-end: 2;
+    
+        background-color: rgb(163, 163, 161);
+    
+    }
+    .e2{
+        grid-row-start: 2;
+        grid-row-end: 3;
+    
+        background-color: rgb(162, 170, 170);
+    }
+    .e3{
+        grid-row-start: 3;
+        grid-row-end: 4;
+    
+    }
+
+}
+
