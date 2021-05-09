@@ -81,3 +81,95 @@ h1{
 .profilepara{
     font-size: 20px;
 }
+@media (max-width: 760px) {
+    .grid1{
+        display: grid;
+        background-color: white;
+        grid-template-columns: 500px;
+        grid-template-rows: 500px 500px 500px 500px;
+        grid-gap:2px;
+        
+        
+    }
+    .p5{
+    
+        float: left;
+        width: 100px;
+    }
+    .saleim{
+  
+        width: 200px;
+        height: 200px;
+    }
+    .myh2{
+        font-size: 40px;
+        text-align: left;
+    }
+    .myh3{
+        font-size: 20px;
+        text-align: left;
+    }
+
+    
+    
+    
+}
+@media (max-width: 480px) {
+    .grid1{
+        display: grid;
+        background-color: white;
+        grid-template-columns: 300px;
+        grid-template-rows: 250px 250px 250px 250px;
+        grid-gap:2px;
+        
+        
+    }
+    .p5{
+    
+        float: left;
+        width: 80px;
+    }
+    .saleim{
+  
+        width: 170px;
+        height: 170px;
+    }
+    .myh2{
+        font-size: 40px;
+        text-align: left;
+    }
+    .myh3{
+        font-size: 20px;
+        text-align: left;
+    }
+    .p1,.p2,.p3,.p4{
+        width: 200px;
+        height: 100px;
+    }
+    .addbutton{
+        background-color: black;
+        text-align: center;
+        color: blanchedalmond;
+        font-size: 20px;
+      
+    }
+    .ph1{
+        font-size: 30px;
+    }
+    .newcartbutton{
+        background-color: crimson;
+        color: cyan;
+        float: none;
+        margin-right: 0px;
+        margin-left: 20px;
+        font-size: 30px;
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+    .pi{
+        width: 100px;
+    }
+    
+    
+    
+}
