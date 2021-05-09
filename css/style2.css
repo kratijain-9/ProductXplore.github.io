@@ -264,5 +264,137 @@ nav a:hover{
     }
   
 }
+/*for mobiles*/
+@media (max-width: 480px){
+    .midpart{
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 800px 800px 600px 290px 280px;
+    }
+    .mid1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+
+    }
+    .mid2{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+
+    }
+    .mid3{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+
+    }
+    .mid4{
+       grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+
+    }
+    .mid5{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        text-align: left;
+
+    }
+    .doim{
+        padding-top: 10px;
+        padding-left: 6px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        border: 5px solid rgb(228, 140, 140);
+        border-radius: 10px;
+        margin: 10px;
+       
+      
+    }
+    .midimage{
+        float: none;
+        width: 200px;
+    }
+    .midbutton{
+        padding: 10px 10px 10px 10px;
+        background-color: rgb(247, 118, 33);
+       
+        font-size: 30px;
+    }
+    header{
+        background-color: rgb(24, 23, 23);
+        text-align: left;
+        font-size: 40px;
+        color: blanchedalmond;
+        padding: none;
+        font-family: fantasy;
+        
+    }
+    .bigfont{
+        font-size: 50px;
+        font-family: 'Dancing Script', cursive;
+        text-align: right;
+    }
+    .bigfont2{
+        font-size: 20px;
+        font-family: 'Monoton', cursive;
+        text-align: right;
+    }
+    .bigimage{
+    
+        padding-bottom: 80px;
+        background-image: url("../images/favicon2.jpg");
+        background-repeat: no-repeat;
+        background-size: 70% 70%;
+        width: 50%;
+        
+    }
+    #button1{
+        margin-left: 80px;
+        background-color: crimson;
+        padding: 10px 30px 10px 30px;
+        border: none;
+        font-size: 40px;
+        
+        border-radius: 10px;
+    }
+    .navbar{
+        display: grid;
+        padding-left: 4px;
+        background-color: rgb(149, 153, 155);
+        grid-template-columns: 300px;
+        grid-template-rows: 50px 50px 50px;
+        text-align: center;
+        font-size: 30px;
+        text-transform: capitalize;
+        font-weight: bolder;
+        grid-gap: 4px;
+    }
+    .abc{
+        border: 1px solid rgb(150, 153, 155);
+        border-radius: 7px;
+    }
+    .navelement1{
+        background-color: rgb(240, 250, 194);
+    }
+    .navelement2{
+        background-color: rgb(245, 208, 228);
+    }
+    
+    .navelement4{
+        background-color: rgb(243, 147, 179);
+        font-size: 20px;
+    }
+  
+}
+
+
 
 
