@@ -143,8 +143,8 @@ h1{
         text-align: left;
     }
     .p1,.p2,.p3,.p4{
-        width: 200px;
-        height: 100px;
+        width: 200px !important;
+        height: 100px !important;
     }
     .addbutton{
         background-color: black;
